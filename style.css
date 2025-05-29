@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+   overflow-x: hidden;
+}
+
+
+header{
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    gap: 190px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: #dc4a1d7e;
+    border-radius: 9px;
+
+}
+
+
+h1{
+    font-size: 25px;
+}
+
+ .menu{
+    display: flex;
+    gap: 190px;
+    align-items: center;
+    flex-direction: row;
+   
+
+}
+
+.menu .nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.menu li{
+    list-style: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu a{
+    text-decoration: 0;
+    color: black;
+}
+.menu2 a{
+    text-decoration: 0;
+    color: black;
+}
+
+.menu2{
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu li:hover{
+    background-color: white;
+    border: 2px solid #1E88E5;
+    transform: scale(1);
+    padding: 7px 9px 7px 9px;
+    border-radius:2px ;
+
+}
+.contact{
+   border: 1px solid black;
+   border-radius: 2px; 
+   padding: 8px 9px 8px 9px;
+
+   
+}
+.contact:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+}
+.clientarea{
+    border-radius: 2px; 
+    padding: 7px 9px 7px 9px;
+    background-color: #1E88E5;
+
+}
+
+.clientarea:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.2);
+}
+
+li{
+  list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    gap: 60px;
+    margin-right: 120px;
+}
+
+
+.img{
+    width: 50%;
+
+    padding: 20px;
+   
+}
+
+h2{
+    font-size: 40px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.princ{
+    margin-left: 60px;
+}
+
+
+img{
+    padding: 10px;
+    margin-left: 10px;
+
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px; 
+    padding: 8px 9px 8px 9px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.icons{
+    gap: 30px;
+    margin-top: 20px;
+}
+.icons i {
+    font-size: 40px;
+    margin: 50px 30px 30px 0px;
+    
+
+}
+
+
+
+.aboutus{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow:1px ;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.aboutus01{
+    padding: 25px;
+    justify-content: center;
+    margin: 20px 70px 2px 70px;
+    border: 1px solid #FF7043;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #FF7043;
+    
+}
+h2{
+
+    text-align: center;
+    color: #FF7043;
+}
+h3{
+    padding: 10px;
+}
+
+.aboutus02{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.aboutus21{
+    padding: 25px;
+    justify-content: center;
+    margin: 20px 70px 2px 70px;
+
+    border: 1px solid #FF7043;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #FF7043;
+
+
+}
+.aboutus22{
+    padding: 25px;
+    justify-content: center;
+    margin: 20px 70px 2px 70px;
+
+   border: 1px solid #FF7043;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #FF7043;
+}
+
+
+.products{
+    display: flex;
+    border:0;
+    height: 260vh;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    padding-top: 40px;
+
+    
+}
+.product1{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 300px;
+    width: 1100px;
+    margin-left: 50px;
+    border: 1px solid black;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 3px  3px  3px  3px #4885b9;
+    border-radius: 5px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+
+}
+
+.prod-title{
+    text-align: start;
+}
+
+.imagem{
+    height: 300px;
+   
+  
+}
+
+
+
+
+.ccontact{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    height: 80vh;
+    width: 200vh;
+    align-items: center;
+   
+    border-radius: 2px; 
+    padding: 8px 9px 8px 9px;
+
+
+   
+}
+
+.caixa-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+     height: 50vh;
+    width: 50vh;
+    border-radius: 3px;
+    padding-top: 15px;
+    box-shadow: 5px 5px 5px 5px #1E88E5;
+    justify-content: space-around;
+}
+.text{
+    height: 30px;
+    width: 250px;
+    padding: 20px;
+}
+
+.email{
+      height: 30px;
+    width: 250px;
+    padding: 20px;
+}
+
+.msg{
+      height: 100px;
+    width: 250px;
+    padding: 20px;
+}
+.button{
+      height: 30px;
+    width: 130px;
+    padding: 20px;
+    background-color: #1E88E5;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: #1E88E5;
+    padding: 4vh;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+/*Media Quiry*/
+
+@media (max-width:1024px){
+    header{
+        background-color: white;
+        gap: 90px;
+    }
+    .menu .nav{
+        display: none;
+    }
+
+    .home{
+        flex-direction: column;
+        margin: 60px;
+    }
+    .img{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .img img{
+        width: 500px;
+        height: auto;
+    }
+    h2{
+        font-size: 30px ;
+    }
+
+    .aboutus{
+    border: 0;
+    height: 100vh;
+  
+    padding-bottom: 100px;
+    padding-top: 120px;
+    }
+
+    .aboutus02{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    flex-direction: column;
+
+}
+
+.products{
+    display: flex;
+    border:0;
+    height: 350vh;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+    padding-top: 40px;
+    gap: 50px;
+
+    
+}
+.product1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    height: 1000px;
+    width: 420px;
+    margin: auto;
+    border: 1px solid black;
+    align-items: center;
+    box-shadow: 3px  3px  3px  3px #4885b9;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
+    margin: 40px;
+}
+
+.ccontact{
+    display: block;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    height: 80vh;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    margin: auto;   
+    border-radius: 2px; 
+    padding: 8px 9px 8px 9px;
+    margin-bottom: 120px;
+}
+
+.caixa-contacto{
+    display: block;
+    flex-direction:column-reverse;
+    align-items: center;
+    border: 1px solid black;
+    height: 280px;
+    width: 300px;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+.footer{
+
+    display: none;
+
+    /*
+    background-color: #1E88E5;
+    padding: 4vh;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    position: static;
+    padding: 20px;
+    text-align: center;*/
+} 
+
+
+
+
+}
